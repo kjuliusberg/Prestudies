@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber prestudy_coil"] 1773216227.17738 "prestudy_coil.bcf" "prestudy_coil.bbl" "prestudy_coil" 1773218497.01359 0
-  "prestudy_coil.bcf" 1773218496 107186 eaaa4cd7e05e4b6c6a6fb3c31db72029 "pdflatex"
+["biber prestudy_coil"] 1773216227.17738 "prestudy_coil.bcf" "prestudy_coil.bbl" "prestudy_coil" 1773219698.49819 0
+  "prestudy_coil.bcf" 1773219698 107186 eaaa4cd7e05e4b6c6a6fb3c31db72029 "pdflatex"
   (generated)
   "prestudy_coil.bbl"
   "prestudy_coil.blg"
   (rewritten before read)
-["pdflatex"] 1773218495.64263 "c:/Users/kjuli/Documents/GitHub/Prestudies/prestudy_coil.tex" "prestudy_coil.pdf" "prestudy_coil" 1773218497.01412 0
+["pdflatex"] 1773219695.53054 "c:/Users/kjuli/Documents/GitHub/Prestudies/prestudy_coil.tex" "prestudy_coil.pdf" "prestudy_coil" 1773219698.49926 0
   "Bilder/Helmholtz_coils.png" 1773216629 70321 5fee3e46a714729af2bd3d43e5c6d5f2 ""
   "C:/Users/kjuli/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773215969 81107 70b8516c68c2e617189c5e44bfd16b96 ""
   "C:/Users/kjuli/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1773064583 31952 2801ef4c9d1324cd48aec91d2fc0c6d6 ""
@@ -148,12 +148,12 @@
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/kjuli/Documents/GitHub/Prestudies/prestudy_coil.tex" 1773218493 3271 4f3f233931723410fcb499bf319f0bcd ""
-  "prestudy_coil.aux" 1773218496 1887 603f66124bb095108606076b62bce8f4 "pdflatex"
+  "c:/Users/kjuli/Documents/GitHub/Prestudies/prestudy_coil.tex" 1773219694 4474 12060ee2cf4bd26fee5b6b0e4a1fe658 ""
+  "prestudy_coil.aux" 1773219698 1970 60b563e2371ad7437cf4404ee590c3c2 "pdflatex"
   "prestudy_coil.bbl" 1773216228 0 d41d8cd98f00b204e9800998ecf8427e "biber prestudy_coil"
-  "prestudy_coil.out" 1773218496 532 fc8122093e972f076a2df423530a8e3e "pdflatex"
-  "prestudy_coil.run.xml" 1773218496 2287 2c5059770ce6c4cb1587e529aee509ab "pdflatex"
-  "prestudy_coil.tex" 1773218493 3271 4f3f233931723410fcb499bf319f0bcd ""
+  "prestudy_coil.out" 1773219698 623 afa4c89cf53742314fad8b4a65933ed4 "pdflatex"
+  "prestudy_coil.run.xml" 1773219698 2287 2c5059770ce6c4cb1587e529aee509ab "pdflatex"
+  "prestudy_coil.tex" 1773219694 4474 12060ee2cf4bd26fee5b6b0e4a1fe658 ""
   (generated)
   "prestudy_coil.aux"
   "prestudy_coil.bcf"

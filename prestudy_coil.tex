@@ -75,14 +75,34 @@ Using the geometry of our coil and expressing the magnetic flux density $B$ as a
 the expression would be as follows:
 
 \begin{equation}
-    \left(\frac{4}{5}\right)^{3/2} \frac{\mu_0 N }{R} =  2.6 \cdot 10^{-3} \rightarrow B = 2.6I \cdot 10^{-3}
+    \left(\frac{4}{5}\right)^{3/2} \frac{\mu_0 N }{R} =  2.6 \cdot 10^{-3} \rightarrow B = 2.6\;I \cdot 10^{-3}
 \end{equation}
 
 We should therefore expect to see approximately $2.6 \;\si{mT/A}$ in the center of our coil.
 
 \subsection{The Hall element}
+To measure the magnetic field, a commercial Hall effect sensor is used.
+The sensor is the +++ from AKM. 
+It has been prepared for calibration by being mounted to a small pcb, as shown in figure
 
+% \begin{figure}
+%     \centering
+%     \includegraphics[width=0.5\linewidth]{}
+%     \caption{}
+%     \label{fig:cryo_pcb}
+% \end{figure}
+By providing a current through the hall element, a measureable Hall voltage should be produced.
+The formuala for the hall-voltage is given as 
+\begin{equation}
+    V_H = \frac{BI}{dnq}
+    \label{eq:hall_voltage}
+\end{equation}
+with the magnetic flux denisty being $B$, the current $I$.
+$d$ is the thickness of the hall element, $q$ is the charge of the charge carrier and $n$ is the charge carrier density.
+Since $d$, $q$ and $n$ all are constant ($n$ changes as a function of temperature, and we can assume the temperature is constant), the hall voltage should be linearly proportional to both the magnetic flux density and the current.
+
+Thus, by providing a steady current to our hall element we should be able to calibrate the hall voltage to the changing magnetic flux density, which we can control through our Helmholtz coil.
 \section{Methodology}
 
-\section{}
+\section{Expected results}
 \end{document}
