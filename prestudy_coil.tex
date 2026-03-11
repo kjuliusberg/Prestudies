@@ -44,8 +44,7 @@ A cryogenic magnetic field sensor for quantum computing
 \section{Introduction}
 
 This prestudy presents the background theory and methodology for calibrating a constructed Helmholtz coil.
-Furthermore, the coil will be used to calibrate the hall - element for later use with the entire magnetic field sensor system.
-
+Furthermore, the coil will be used to perform a function test of the hall - element to ensure functionality for later tests.
 \subsection{The Helmholtz coil}
 A Helmholtz coil is a pair of coils with a certaing geometry which makes it ideal for creating a homogenous magnetic field with a highly controllable magnetic flux density.
 A schematic picture of the coil is shown in figure \ref{fig:helmholtz_coil}.
@@ -101,8 +100,50 @@ with the magnetic flux denisty being $B$, the current $I$.
 $d$ is the thickness of the hall element, $q$ is the charge of the charge carrier and $n$ is the charge carrier density.
 Since $d$, $q$ and $n$ all are constant ($n$ changes as a function of temperature, and we can assume the temperature is constant), the hall voltage should be linearly proportional to both the magnetic flux density and the current.
 
+Reading the datasheet for the Hall element, the produced Hall voltage is a linear function of the magnetic flux density of approximately
+\begin{equation}
+    V_H = 3.15 B
+\end{equation}
+with a constant current of 5 mA.
+
 Thus, by providing a steady current to our hall element we should be able to calibrate the hall voltage to the changing magnetic flux density, which we can control through our Helmholtz coil.
 \section{Methodology}
+\subsection{Equipment}
+To perform these tests, we need to place the coil in a magnetically shielded environment.
+We thus need a cryopermic shield to shield out other magnetic fields. 
+We also need an external gaussmeter to calibrate the coil.
+
+To provide a steady current through the coil and the hall element we need at least 2 DC power supplys with controllable current.
+To measure the hall voltage we also need a multimeter. 
+We also need access to some construction tools, mainly wires and soldering equipment. 
+
+The equipment needed is summarized in the following list:
+\begin{itemize}
+    \item Gaussmeter (external, shown to us by Robert a few weeks back)
+    \item Cryopermic shield
+    \item 2 DC power supplys for providing current through coil and hall element
+    \item Multimeter for measuring Hall voltage
+    \item Misc. tools such as wires, soldering equipment etc. 
+\end{itemize}
+\subsection{Experiments}
+Initially, the coil will be placed inside the cryopermic shield and the background magnetic flux density will be measured.
+Then, a controlled current will be applied to the coil and the produced magnetic flux denisty will be measured.
+This measurement will be performed for several currents over several orders of magnitude.
+
+When calibration of the coil is done, the Hall element PCB will be placed inside the cryopermic shield and a constant magnetic field will be provided to it.
+A constant current of 5 mA will be applied to the hall element and the resulting Hall voltage will be measured.
 
 \section{Expected results}
+We expect to be able to produce a magnetic field at the center of the Helmholz coil linearly proportional to the current applied over the copper wire.
+This relationship should be approximately 2.6 $\si{mT/A}$, but matching this relationship is not crucial.
+As long as a linear relationship between the current and magnetic flux density can be established, the test will be a success.
+
+Regarding the Hall element, calibrating it is not the main purpose of this test.
+The purpose of this test is to establish functionality, so that we with good confidence can move further in this project and later test the hall element with the full measurement setup.
+The full measurement setup will also contain the room-temp PCB for data aquisition.
+The test of the cryo PCB will be considered a success if the measured Hall voltage is found to be linearly dependant on the applied magnetic field or current.
+
+The produced hall voltage will however be quite small, thus needing amplification in the test stage.
+This extra amplification further complicates calibration, since the amplification in the initial test stage won't be the same as the amplification of the final product.
+It will however not interfere with function tests.
 \end{document}
